@@ -1,1 +1,12 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-main: 'Inter', sans-serif;
+  --font-accent: 'PressStart2P', fantasy;
+  --font-weight-text: 410; 
+  --font-weight-title: 715; 
+  --font-size-m: 18px;
+  --font-size-s: 14px;
+  --contour-color: black;
+  --animation-fill-color: #FF0000;
+  --width-clamp: clamp(23.438rem, -0.0093rem + 100.0418vw, 43.759rem);
+}
