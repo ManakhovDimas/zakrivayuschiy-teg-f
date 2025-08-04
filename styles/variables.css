@@ -2,6 +2,7 @@
 :root {
   --font-main: 'Inter', sans-serif;
   --font-accent: 'PressStart2P', fantasy;
+  --font-weight-s: 400;
   --font-weight-text: 410; 
   --font-weight-title: 715; 
   --font-size-m: 18px;

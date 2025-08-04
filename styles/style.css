@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font-main);
-  font-variation-settings: var(--font-weight-title), var(--font-weight-text);
+  font-variation-settings: var(--font-weight-title), var(--font-weight-text) , var(--font-weight-s);
   background-image: repeating-linear-gradient(
       to right,
       #d3d3d3,
@@ -94,7 +94,7 @@
   top: 25px;
   right: 25px;
   font-family: var(--font-accent);
-  font-weight: 400;
+  font-weight: var(--font-weight-s);
   font-size: var(--font-size-s);
   line-height: 100%;
   letter-spacing: 0;
@@ -335,7 +335,7 @@ button {
 
 .dialog-text {
   font-family: var(--font-accent);
-  font-weight: 400;
+  font-weight: var(--font-weight-s);
   font-size: var(--font-size-s);
   line-height: 150%;
   letter-spacing: 0;
