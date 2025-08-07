@@ -227,10 +227,13 @@
   border: 2px solid var(--contour-color);
 }
 
-button {
+.button {
   position: relative;
   cursor: pointer;
   display: grid;
+  background-color: #fff;
+  font-size: var(--font-size-s);
+  transition: box-shadow 0.3s ease;
 }
 
 .button::before {
@@ -316,8 +319,6 @@ button {
   block-size: 100%;
   grid-template-columns: min-content 1fr;
   grid-template-rows: 1fr 1fr;
-  row-gap: 30px;
-  align-self: self-end;
 }
 
 .floppy__dialog {
@@ -341,6 +342,7 @@ button {
   block-size: 38px;
   border: 2px solid var(--contour-color);
   text-transform: uppercase;
+  align-self: self-end;
 }
 
 .grayscale {
